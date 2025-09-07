@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Maple Mono';
+    src: url('maple-mono-latin-500-normal.ttf') format('truetype');
+}
+
+body {
+    background-color: #300D2D;
+}
+
+.body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: dotted;
+    border-color: #D1CCDC;
+    border-width: 3px;
+    height: 930px;
+}
+
+.name {
+    font-family: 'Maple Mono', monospace;
+    color: #D1CCDC;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.desc {
+    margin: 10px;
+    margin-top: -10px;
+    padding: 10px;
+    text-align: center;
+    text-align: center;
+    max-width: 700px;
+    margin-left: 600px;
+}
+
+.desc-text {
+    font-family: 'Maple Mono', monospace;
+    color: #D1CCDC;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.pfp {
+    display: block;
+    margin: 20px auto;
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.iconbar {
+    margin: 10px;
+    margin-top: 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.icons {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    margin-top: -20px;
+    filter: invert(100%);
+}
+
+.button {
+    background-color: rgba(209, 204, 219, 0);
+    border: none;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
